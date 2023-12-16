@@ -16,7 +16,7 @@ function App() {
             <div>
                 <ModalPage/>
             </div>
-            <div className='bg-amber-100'>
+            <div>
                 <ProjectCardPage/>
             </div>
         </div>

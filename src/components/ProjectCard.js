@@ -1,6 +1,7 @@
 function ProjectCard({project}) {
     const {title, description, image} = project;
 
+    //w-80 sm:w-80 md:w-72 lg:w-72
     return (
         <div className='bg-white rounded overflow-hidden shadow-md transition-transform hover:scale-90'>
             <div>
