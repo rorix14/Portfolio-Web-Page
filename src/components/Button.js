@@ -1,60 +1,18 @@
 import className from 'classnames'
 import {twMerge} from "tailwind-merge";
-import {useState} from "react";
 
 function Button({children, primary, secondary, outline, rounded, ...rest}) {
-
-    const [isHovered, setHover] = useState(false);
-    const [isClicked, setClicked] = useState(false);
-
-    const combinedOnMouseEnter = () => {
-        if (rest.onMouseEnter) {
-            rest.onMouseEnter();
-        }
-        setHover(true);
-    };
-
-    const combinedOnMouseLeave = () => {
-        if (rest.onMouseLeave) {
-            rest.onMouseLeave();
-        }
-        setHover(false);
-    };
-
-    const combinedOnMouseDown = () => {
-        if (rest.onMouseDown) {
-            rest.onMouseDown();
-        }
-        setClicked(true);
-    }
-
-    const combinedOnMouseUp = () => {
-        if (rest.onMouseUp) {
-            rest.onMouseUp();
-        }
-        setClicked(false);
-    }
-
-    const classes = twMerge(className(rest.className, 'flex items-center gap-2 px-3 py-1.5 border', {
-        'border-blue-500 bg-blue-400 text-white': primary,
-        'border-gray-900 bg-gray-800 text-white': secondary,
+    const classes = twMerge(className(rest.className, 'flex items-center gap-2 px-6 py-3 border text-lg transition duration-300', {
+        'rounded border-blue-500 bg-blue-400 text-white hover:bg-blue-700 active:bg-blue-800': primary,
+        'rounded border-gray-700 bg-gray-500 text-white hover:bg-gray-700 active:bg-gray-900': secondary,
         'rounded-full': rounded,
         'bg-white': outline,
-        'text-blue-500': outline & primary,
-        'text-gray-900': outline & secondary,
-        'bg-blue-600 text-grey': isHovered & primary,
-        'bg-gray-900 text-white': isHovered & secondary,
-        'border-4': isClicked & isHovered
+        'text-blue-500 hover:bg-blue-100 active:bg-blue-200': outline & primary,
+        'text-gray-900 hover:bg-gray-200 active:bg-gray-400': outline & secondary,
     }))
 
     return (
-        <button {...{
-            ...rest,
-            onMouseEnter: combinedOnMouseEnter,
-            onMouseLeave: combinedOnMouseLeave,
-            onMouseDown: combinedOnMouseDown,
-            onMouseUp: combinedOnMouseUp
-        }} className={classes}>
+        <button {...rest} className={classes}>
             {children}
         </button>
     )

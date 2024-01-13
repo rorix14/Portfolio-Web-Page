@@ -1,9 +1,9 @@
-function ProjectCard({project}) {
+function ProjectCard({project, ...rest}) {
     const {title, description, image} = project;
 
     //w-80 sm:w-80 md:w-72 lg:w-72
     return (
-        <div className='bg-white rounded overflow-hidden shadow-md transition-transform hover:scale-90'>
+        <div {...rest} className='cursor-pointer bg-white rounded overflow-hidden shadow-md transition-transform hover:scale-90'>
             <div>
                 <img src={image} alt={title} className="w-full object-cover"/>
             </div>
