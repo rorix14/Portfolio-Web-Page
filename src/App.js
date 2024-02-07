@@ -30,21 +30,21 @@ function App() {
         <div>
             <NavBar sections={sections}/>
             <HomePage/>
-            <div id={sections[0].id}>
+            <section id={sections[0].id}>
                 <AboutPage/>
-            </div>
-            <div id={sections[1].id}>
+            </section>
+            <section id={sections[1].id}>
                 <SkillsPage skills={skills}/>
-            </div>
-            <div id={sections[2].id}>
+            </section>
+            <section id={sections[2].id}>
                 <ProjectCardPage projectsList={projectsList}/>
-            </div>
-            <div id={sections[3].id}>
+            </section>
+            <section id={sections[3].id}>
                 <PapersPage papers={papers}/>
-            </div>
-            <div id={sections[4].id}>
+            </section>
+            <section id={sections[4].id}>
                 <ContactsPage contacts={contacts}/>
-            </div>
+            </section>
         </div>
     );
 }

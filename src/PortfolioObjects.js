@@ -33,9 +33,81 @@ import JupyterNotebookLogo from "./images/logos/JupyterNotebook_logo.png"
 import Love2DLogo from "./images/logos/Love2D_logo.png"
 import ZeroBraneStudioLogo from "./images/logos/ZeroBrane_logo.png"
 
-import BatmanImage from "./images/Batman_Capivara.jpg";
-import SuperManImage from "./images/Super_Capivara.jpg";
-import JokerImage from "./images/Joker_Capivara.jpg";
+// Projects images
+import PE_1 from "./images/Projects/Planet Eden/PE_1.jpg"
+import PE_2 from "./images/Projects/Planet Eden/PE_2.jpg"
+import PE_3 from "./images/Projects/Planet Eden/PE_3.jpg"
+import PE_4 from "./images/Projects/Planet Eden/PE_4.png"
+import PE_5 from "./images/Projects/Planet Eden/PE_5.jpg"
+import PE_6 from "./images/Projects/Planet Eden/PE_6.png"
+import PE_7 from "./images/Projects/Planet Eden/PE_7.png"
+import PE_9 from "./images/Projects/Planet Eden/PE_9.png"
+import PE_10 from "./images/Projects/Planet Eden/PE_10.png"
+import PE_12 from "./images/Projects/Planet Eden/PE_12.png"
+import PE_13 from "./images/Projects/Planet Eden/PE_13.png"
+import PE_15 from "./images/Projects/Planet Eden/PE_15.png"
+import PE_16 from "./images/Projects/Planet Eden/PE_16.png"
+import PE_17 from "./images/Projects/Planet Eden/PE_17.png"
+import PE_18 from "./images/Projects/Planet Eden/PE_18.jpg"
+import RE_1 from "./images/Projects/Rotten Eden/RE_1.jpg"
+import RE_2 from "./images/Projects/Rotten Eden/RE_2.jpg"
+import RE_3 from "./images/Projects/Rotten Eden/RE_3.jpg"
+import RE_4 from "./images/Projects/Rotten Eden/RE_4.jpg"
+import RE_5 from "./images/Projects/Rotten Eden/RE_5.jpg"
+import RE_6 from "./images/Projects/Rotten Eden/RE_6.jpg"
+import RE_7 from "./images/Projects/Rotten Eden/RE_7.jpg"
+import RE_8 from "./images/Projects/Rotten Eden/RE_8.jpg"
+import RE_9 from "./images/Projects/Rotten Eden/RE_9.jpg"
+import RE_10 from "./images/Projects/Rotten Eden/RE_10.jpg"
+import RE_11 from "./images/Projects/Rotten Eden/RE_11.jpg"
+import RE_12 from "./images/Projects/Rotten Eden/RE_12.jpg"
+import TR_1 from "./images/Projects/Tiny Reef/TR_1.png"
+import TR_2 from "./images/Projects/Tiny Reef/TR_2.png"
+import TR_3 from "./images/Projects/Tiny Reef/TR_3.png"
+import TR_4 from "./images/Projects/Tiny Reef/TR_4.png"
+import TR_5 from "./images/Projects/Tiny Reef/TR_5.png"
+import TR_6 from "./images/Projects/Tiny Reef/TR_6.png"
+import TR_7 from "./images/Projects/Tiny Reef/TR_7.png"
+import TR_8 from "./images/Projects/Tiny Reef/TR_8.png"
+import TR_9 from "./images/Projects/Tiny Reef/TR_9.png"
+import TR_10 from "./images/Projects/Tiny Reef/TR_10.png"
+import TR_11 from "./images/Projects/Tiny Reef/TR_11.png"
+import TR_12 from "./images/Projects/Tiny Reef/TR_12.png"
+import TR_13 from "./images/Projects/Tiny Reef/TR_13.png"
+import MLi_1 from "./images/Projects/Morte Liberantis/MLi_1.jpg"
+import MLi_2 from "./images/Projects/Morte Liberantis/MLi_2.jpg"
+import MLi_3 from "./images/Projects/Morte Liberantis/MLi_3.jpg"
+import MLi_4 from "./images/Projects/Morte Liberantis/MLi_4.jpg"
+import MLi_5 from "./images/Projects/Morte Liberantis/Mli_5.png"
+import MLi_6 from "./images/Projects/Morte Liberantis/MLi_6.jpg"
+import MLi_7 from "./images/Projects/Morte Liberantis/MLi_7.jpg"
+import MLi_8 from "./images/Projects/Morte Liberantis/MLi_8.jpg"
+import MLi_9 from "./images/Projects/Morte Liberantis/MLi_9.png"
+import MLi_10 from "./images/Projects/Morte Liberantis/MLi_10.png"
+import MLi_11 from "./images/Projects/Morte Liberantis/MLi_11.png"
+import MLi_12 from "./images/Projects/Morte Liberantis/MLi_12.png"
+import MLi_13 from "./images/Projects/Morte Liberantis/MLi_13.png"
+import PS_1 from "./images/Projects/President Sim/PS_1.png"
+import PS_2 from "./images/Projects/President Sim/PS_3.png"
+import Muve_1 from "./images/Projects/Muve/Muve_1.jpg"
+import Muve_2 from "./images/Projects/Muve/Muve_2.png"
+import Muve_3 from "./images/Projects/Muve/Muve_3.jpg"
+import Thesis_1 from "./images/Projects/Thesis/Thesis_1.jpg"
+import Thesis_2 from "./images/Projects/Thesis/Thesis_2.jpg"
+import Thesis_3 from "./images/Projects/Thesis/Thesis_3.jpg"
+import Thesis_4 from "./images/Projects/Thesis/Thesis_4.jpg"
+import Thesis_5 from "./images/Projects/Thesis/Thesis_5.jpg"
+import Thesis_6 from "./images/Projects/Thesis/Thesis_6.png"
+import Thesis_7 from "./images/Projects/Thesis/Thesis_7.png"
+import RS_1 from "./images/Projects/Rock 'n' Shoot/RS_1.jpg"
+import RS_2 from "./images/Projects/Rock 'n' Shoot/RS_2.jpg"
+import RS_3 from "./images/Projects/Rock 'n' Shoot/RS_3.jpg"
+import RS_4 from "./images/Projects/Rock 'n' Shoot/RS_4.jpg"
+import DR_1 from "./images/Projects/Driver Mania/DR_1.jpg"
+import DR_2 from "./images/Projects/Driver Mania/DR_2.jpg"
+import DR_3 from "./images/Projects/Driver Mania/DR_3.jpg"
+import DR_4 from "./images/Projects/Driver Mania/DR_4.jpg"
+import DR_5 from "./images/Projects/Driver Mania/DR_5.jpg"
 
 export const papers = [
     {
@@ -232,169 +304,162 @@ export const projectsList = [
     {
         title: 'Thesis Project',
         description: 'Deep Learning testbed for stealth games',
-        image: BatmanImage,
-        trailer: 'https://www.youtube.com/embed/gZmi1G2VSqs?si=pVY9f9l-HF-MCkp-',
+        image: Thesis_5,
+        trailer: 'https://www.youtube.com/embed/M1Pml_v27eo?si=JPbIRXmneKUhl0Nq',
         gitRepo: 'https://github.com/rorix14/Thesis-Project',
+        downloadLink: null,
         tech: [GetSkillByName("C#"), GetSkillByName("HLSL"), GetSkillByName("Unity"), GetSkillByName("Rider")],
-        summary: 'Developed as part of my master’s thesis “An Evaluation of Deep\n' +
-            'Reinforcement Learning & Neuroevolution in Stealth Game Problems”, this project\n' +
-            'serves as a testbed for training Deep Learning models on custom stealth game levels\n' +
-            'with simple mechanics. It includes four distinct levels, each with state data collection\n' +
-            'and reward structures. This project contains a deep-learning library, built from scratch,\n' +
-            'that includes algorithms from the fields of Deep Reinforcement Learning and\n' +
-            'Neuroevolution. These algorithms are Deep Q-Networks, Double DQN, Dueling DQN,\n' +
-            'N-step DQN, Prioritized Experience Replay DQN, Noisy DQN, Distributional DQN,\n' +
-            'Rainbow DQN, Random Search, Evolutionary Strategy, Genetic Algorithms, Neuro\n' +
-            'Evolution Augmenting Topologies, and Novelty Search. In addition, this project\n' +
-            'includes two main supporting libraries. An automated testing library, designed to\n' +
-            'facilitate large-scale experiments and data collection, and a custom graph library, that\n' +
-            'enables researchers to visually represent the data collected from their experiments\n' +
-            'directly within the game engine.'
+        images: [Thesis_1, Thesis_2, Thesis_3, Thesis_4, Thesis_5, Thesis_6, Thesis_7],
+        summary: 'As part of my master’s thesis titled “An Evaluation of Deep Reinforcement Learning & Neuroevolution in ' +
+            'Stealth Game Problems”, I developed a project that trains Deep Learning models on custom stealth game levels ' +
+            'with simple mechanics. It includes four distinct levels, each with state data collection and reward structures.\n\n' +
+            'This project contains a deep-learning library, built from scratch, that includes algorithms from the fields of ' +
+            'Deep Reinforcement Learning and Neuroevolution. The algorithms used are Deep Q-Networks, Double DQN, Dueling DQN, ' +
+            'N-step DQN, Prioritized Experience Replay DQN, Noisy DQN, Distributional DQN, Rainbow DQN, Random Search, Evolutionary ' +
+            'Strategy, Genetic Algorithms, Neuro Evolution Augmenting Topologies, and Novelty Search.\n\nIn addition, this ' +
+            'project includes two main supporting libraries. An automated testing library, designed to facilitate large-scale ' +
+            'experiments and data collection, and a custom graph library, that enables researchers to visually represent ' +
+            'the data collected from their experiments directly within the game engine.'
     }, {
         title: 'Rotten Eden',
         description: 'Co-op Multiplayer Tower Defense FPS',
-        image: SuperManImage,
+        image: RE_11,
         trailer: 'https://www.youtube.com/embed/OeiwMV52hfQ?si=I8bsdGv1-m8Bh-sZ',
-        gitRepo: '',
+        gitRepo: 'https://github.com/rorix14/Rotten-Eden',
+        downloadLink: 'https://pedro-silva123.itch.io/rotten-eden',
         tech: [GetSkillByName("C++"), GetSkillByName("JavaScript"), GetSkillByName("SQL"), GetSkillByName("Unreal"),
             GetSkillByName("Node.js"), GetSkillByName("MySQL"), GetSkillByName("Rider"), GetSkillByName("VS Code")],
-        summary: 'In Rotten Eden is set in the desolate ruins of a once-thriving American city,\n' +
-            'in a post-apocalyptic world ravaged by a deadly virus that turned most humans into\n' +
-            'zombies. As a member of a group of human survivors, players must band together to\n' +
-            'fight and survive the zombie hordes. In the game, players must try to survive\n' +
-            'increasingly difficult waves of enemies by collaborating with a maximum of three other\n' +
-            'players. During a match, players must work together to protect specific objective spots\n' +
-            'from being destroyed by zombies. To help in this task, players can unlock stationary\n' +
-            'defenses on the map that shoot at zombies whenever possible. Players can also buy\n' +
-            'better guns and ammo with the currency they get from killing zombies. A match ends\n' +
-            'when all players perish in a single round or when all objective spots have been\n' +
-            'destroyed, when this happens, players\' match scores are recorded and placed on the\n' +
-            'global leaderboard.'
+        images: [RE_1, RE_2, RE_3, RE_4, RE_5, RE_6, RE_7, RE_8, RE_9, RE_10, RE_11, RE_12],
+        summary: 'In Rotten Eden is set in the desolate ruins of a once-thriving American city, in a post-apocalyptic world ' +
+            'ravaged by a deadly virus that turned most humans into zombies. As a member of a group of human survivors, ' +
+            'players must band together to fight and survive the zombie hordes.\n\nIn the game, players must try to survive ' +
+            'increasingly difficult waves of enemies by collaborating with a maximum of three other players. During a match, ' +
+            'players must work together to protect specific objective spots from being destroyed by zombies. To help in this ' +
+            'task, players can unlock stationary defenses on the map that shoot at zombies whenever possible. Players can ' +
+            'also buy better guns and ammo with the currency they get from killing zombies.\n\nA match ends when all players ' +
+            'perish in a single round or when all objective spots have been destroyed, when this happens, players\' match ' +
+            'scores are recorded and placed on the global leaderboard.'
     }, {
         title: 'Tiny Reef',
         description: 'Puzzle Strategy Simulation Educational',
-        image: JokerImage,
+        image: TR_4,
         trailer: 'https://www.youtube.com/embed/r2ZCFOgtrpE?si=U-k6gtHjRadM8B9J',
         gitRepo: 'https://github.com/darrenp123/TinyReef',
-        tech: [GetSkillByName("C#"), GetSkillByName("HLSL"), GetSkillByName("Unity"),  GetSkillByName("Rider")],
-        summary: 'Tiny Reef simulates natural selection amongst a small fish population\n' +
-            'within a fish tank. The player is a scientist who is tasked with experimenting with the\n' +
-            'traits of the various fish to achieve a specific balance within the ecosystem of that\n' +
-            'specific tank. An example of a challenge might be “bring the shark population to four\n' +
-            'members”. Players are presented with a tank (level) that contains a set number of fish\n' +
-            'which all have different trait values based on their species. Environments differ from\n' +
-            'tank to tank, with each tank featuring different fish combinations and challenges.\n' +
-            'Players start any level with a set amount of “gene points” which they can spend to alter\n' +
-            'the traits of individual fish in the tank. For example, a player can spend a point to\n' +
-            'increase or decrease the speed of a fish by 1. Players can only alter individual fish, not\n' +
-            'entire species, but because fish mate, they will pass on their trait values to their\n' +
-            'offspring, modifying future generations. Once a player has run out of gene points, they\n' +
-            'can no longer alter the traits of any of the fish in the tank.'
+        downloadLink: 'https://biglittygames.itch.io/tiny-reef',
+        tech: [GetSkillByName("C#"), GetSkillByName("HLSL"), GetSkillByName("Unity"), GetSkillByName("Rider")],
+        images: [TR_1, TR_2, TR_3, TR_4, TR_5, TR_6, TR_7, TR_8, TR_9, TR_10, TR_11, TR_12, TR_13],
+        summary: 'Tiny Reef simulates natural selection amongst a small fish population within a fish tank. The player is ' +
+            'a scientist who is tasked with experimenting with the traits of the various fish to achieve a specific balance ' +
+            'within the ecosystem of that specific tank. An example of a challenge might be “bring the shark population to ' +
+            'four members”.\n\nPlayers are presented with a tank (level) that contains a set number of fish which all have ' +
+            'different trait values based on their species. Environments differ from tank to tank, with each tank featuring ' +
+            'different fish combinations and challenges. Players start any level with a set amount of “gene points” which ' +
+            'they can spend to alter the traits of individual fish in the tank. For example, a player can spend a point to' +
+            'increase or decrease the speed of a fish by 1. Players can only alter individual fish, not entire species, ' +
+            'but because fish mate, they will pass on their trait values to their offspring, modifying future generations. ' +
+            'Once a player has run out of gene points, they can no longer alter the traits of any of the fish in the tank.'
     }, {
         title: 'Planet Eden',
         description: 'Single-Player Sci-Fi RPG',
-        image: BatmanImage,
+        image: PE_18,
         trailer: 'https://www.youtube.com/embed/gZmi1G2VSqs?si=pVY9f9l-HF-MCkp-',
-        gitRepo: '',
+        gitRepo: 'https://github.com/rorix14/Planet-Eden',
+        downloadLink: 'https://pedro-silva123.itch.io/planet-eden',
         tech: [GetSkillByName("C#"), GetSkillByName("Unity"), GetSkillByName("Visual Studio")],
-        summary: 'The player is the captain of a ship of space settlers that just crash-landed on\n' +
-            'Planet Eden. At the start of the game, the player explores a non-linear uncharted world\n' +
-            'in pursuit of resources to help establish his colony of survivors. While the colony is a\n' +
-            'safe area, the rest of the world is populated by both hostile and friendly alien creatures.\n' +
-            'As the player explores and fights more enemies, they level up, allowing them to explore\n' +
-            'more areas of the world and fight tougher enemies. While exploring, the player can\n' +
-            'encounter a wide variety of weapons that allow them to tailor their combat strategy\n' +
-            'when fighting enemies. In the colony, the player can encounter NPCs that will give\n' +
-            'them quests that involve going out in the world in search of important items to the game\n' +
-            'story. The way the player interacts with these characters – through dialogue choices–\n' +
-            'influences the rewards they get upon quest completion.'
+        images: [PE_1, PE_2, PE_3, PE_4, PE_5, PE_6, PE_7, PE_9, PE_10, PE_12, PE_13, PE_15, PE_16, PE_17],
+        summary: 'The player is the captain of a ship of space settlers that just crash-landed on Planet Eden. At the start ' +
+            'of the game, the player explores a non-linear uncharted world in pursuit of resources to help establish his ' +
+            'colony of survivors.\n\nWhile the colony is a safe area, the rest of the world is populated by both hostile and ' +
+            'friendly alien creatures. As the player explores and fights more enemies, they level up, allowing them to explore ' +
+            'more areas of the world and fight tougher enemies. While exploring, the player can encounter a wide variety ' +
+            'of weapons that allow them to tailor their combat strategy when fighting enemies.\n\nIn the colony, the player ' +
+            'can encounter NPCs that will give them quests that involve going out in the world in search of important items ' +
+            'to the game story. The way the player interacts with these characters – through dialogue choices–influences ' +
+            'the rewards they get upon quest completion.'
     }, {
         title: 'Muve',
         description: 'Interactive Music/Rhythm Virtual Instrument',
-        image: SuperManImage,
-        trailer: 'https://www.youtube.com/embed/r2ZCFOgtrpE?si=U-k6gtHjRadM8B9J',
+        image: Muve_3,
+        trailer: 'https://www.youtube.com/embed/UTOF9BpZGxM?si=YmglNNp74aOOo32h',
         gitRepo: 'https://github.com/rorix14/Muve',
+        downloadLink: null,
         tech: [GetSkillByName("C++"), GetSkillByName("Arduino"), GetSkillByName("Visual Studio")],
-        summary: 'Designed to engage people interested in music creation through physical\n' +
-            'movement, MUVE uses a sensor system worn by users to measure their movement\n' +
-            'speed and force, transmitting this data to a computer application, where it is used for\n' +
-            'sound generation. While the MUVE sensor system relies on an Arduino ESP-32 with an\n' +
-            'accelerometer to measure users\' movements, the MUVE computer application features a\n' +
-            'socket server for communication with the sensor system, an AI module for data\n' +
-            'processing, and a custom digital synthesizer for sound generation. By processing sensor\n' +
-            'data and utilizing the AI module, movement information is converted into note\n' +
-            'arrangements that are given to the custom-built synthesizer, producing music with a\n' +
-            'diverse range of sounds and effects. As users move, MUVE\'s systems interpret their\n' +
-            'movements to dynamically shape a solo instrument\'s melody, harmonizing with a\n' +
-            'looping backing track. Different movement styles interact with musical elements,\n' +
-            'influencing the mood of the generated music. In addition, users can also use their\n' +
-            'computer keyboard as an electronic keyboard to play four different predefined\n' +
-            'instruments.'
+        images: [Muve_1, Muve_2, Muve_3],
+        summary: 'Designed to engage people interested in music creation through physical movement, MUVE uses a sensor system ' +
+            'worn by users to measure their movement speed and force, transmitting this data to a computer application, where ' +
+            'it is used for sound generation.\n\nWhile the MUVE sensor system relies on an Arduino ESP-32 with an accelerometer ' +
+            'to measure users\' movements, the MUVE computer application features a socket server for communication with ' +
+            'the sensor system, an AI module for data processing, and a custom digital synthesizer for sound generation. ' +
+            'By processing sensor data and utilizing the AI module, movement information is converted into note arrangements ' +
+            'that are given to the custom-built synthesizer, producing music with a diverse range of sounds and effects.\n\n' +
+            'As users move, MUVE\'s systems interpret their movements to dynamically shape a solo instrument\'s melody, ' +
+            'harmonizing with a looping backing track. Different movement styles interact with musical elements, influencing ' +
+            'the mood of the generated music. In addition, users can also use their computer keyboard as an electronic keyboard ' +
+            'to play four different predefined instruments.'
     }, {
         title: 'Driver Mania',
         description: 'VR Racing, Deep Learning driving testbed',
-        image: JokerImage,
-        trailer: 'https://www.youtube.com/embed/r2ZCFOgtrpE?si=U-k6gtHjRadM8B9J',
-        gitRepo: '',
+        image: DR_5,
+        trailer: 'https://www.youtube.com/embed/peeCNN7NdBs?si=iINBqjxd1FYxRhAl',
+        gitRepo: 'https://github.com/rorix14/Driver-Mania',
+        downloadLink: null,
         tech: [GetSkillByName("C#"), GetSkillByName("Unity"), GetSkillByName("Rider")],
-        summary: 'Driver Mania is a VR racing game that pits players against other drivers\n' +
-            'controlled by Deep Neural Networks. With VR technology, players are fully immersed\n' +
-            'in the game, complete with controls and UI designed specifically for the VR experience.\n' +
-            'The game also boasts custom car and driving physics to give players a unique driving\n' +
-            'experience. Additionally, this project features a deep-learning library built from scratch\n' +
-            'that can train AI drivers to compete in Driver Mania races. This library offers two\n' +
-            'training methods: supervised learning using human driver data collected from races on\n' +
-            'Driver Mania tracks, and Neuroevolution with genetic algorithms, which continuously\n' +
-            'improves overall AI driver performance through iterative races. After training, these DL\n' +
-            'drivers can then be used as player adversaries.'
+        images: [DR_1, DR_2, DR_3, DR_4],
+        summary: 'Driver Mania is a VR racing game that pits players against other drivers controlled by Deep Neural Networks. ' +
+            'With VR technology, players are fully immersed in the game, complete with controls and UI designed specifically ' +
+            'for the VR experience.\n\nThe game also boasts custom car and driving physics to give players a unique driving' +
+            'experience. Additionally, this project features a deep-learning library built from scratch that can train AI ' +
+            'drivers to compete in Driver Mania races. This library offers two training methods: supervised learning using ' +
+            'human driver data collected from races on Driver Mania tracks, and Neuroevolution with genetic algorithms, which ' +
+            'continuously improves overall AI driver performance through iterative races. After training, these DL drivers ' +
+            'can then be used as player adversaries.'
     }, {
         title: 'Morte Liberantis',
-        description: 'Metroidvania Multiplayer 2D Platformer, that comes with mobile a companion\n' +
-            'app',
-        image: BatmanImage,
-        trailer: 'https://www.youtube.com/embed/r2ZCFOgtrpE?si=U-k6gtHjRadM8B9J',
-        gitRepo: '',
+        description: 'Metroidvania Multiplayer 2D Platformer, that comes with mobile a companion app',
+        image: MLi_5,
+        trailer: 'https://www.youtube.com/embed/CxZWPl9auqA?si=vjD49YSFDrXS4yqf',
+        gitRepo: 'https://github.com/rorix14/Morte-Liberantis',
+        downloadLink: 'https://pedro-silva123.itch.io/morte-liberantis',
         tech: [GetSkillByName("C#"), GetSkillByName("Java"), GetSkillByName("TypeScript"), GetSkillByName("SQL"),
             GetSkillByName("Unity"), GetSkillByName("Android Studio"), GetSkillByName("Node.js"), GetSkillByName("MySQL"),
             GetSkillByName("Visual Studio"), GetSkillByName("VS Code")],
-        summary: 'In the game, players find themselves exploring a non-linear map to\n' +
-            'uncover essential upgrades that allow them to progress in the game by accessing\n' +
-            'previously unreachable areas. The game also features a variety of enemies and bosses,\n' +
-            'encouraging players to engage in both ranged and melee combat. While exploring,\n' +
-            'players can also discover and engage with NPCs tied to the companion app. Players can\n' +
-            'also join other player games via multiplayer, enabling players to engage in friendly\n' +
-            'duels or collaborate in exploring and battling enemies and bosses together.\n' +
-            'In the mobile companion app, players can gain consumable items for the main game by\n' +
-            'engaging in text adventure-style mini-games with the characters they have discovered in\n' +
-            'the main game. These characters can also provide daily quests, encouraging players to\n' +
-            'explore their surroundings by visiting places near their location.'
+        images: [MLi_1, MLi_2, MLi_3, MLi_4, MLi_5, MLi_6, MLi_7, MLi_8, MLi_9, MLi_10, MLi_11, MLi_12, MLi_13],
+        summary: 'In the game, players find themselves exploring a non-linear map to uncover essential upgrades that allow ' +
+            'them to progress in the game by accessing previously unreachable areas. The game also features a variety of ' +
+            'enemies and bosses, encouraging players to engage in both ranged and melee combat. While exploring, players ' +
+            'can also discover and engage with NPCs tied to the companion app. Players can also join other player games via ' +
+            'multiplayer, enabling players to engage in friendly duels or collaborate in exploring and battling enemies and ' +
+            'bosses together.\n\nIn the mobile companion app, players can gain consumable items for the main game by engaging ' +
+            'in text adventure-style mini-games with the characters they have discovered in the main game. These characters ' +
+            'can also provide daily quests, encouraging players to explore their surroundings by visiting places near their location.'
     }, {
         title: 'President Sim',
         description: 'Turn-based Strategy game for the browser',
-        image: SuperManImage,
-        trailer: 'https://www.youtube.com/embed/r1HepJJVJgw?si=Unmml5sFxK7deZ-i',
-        gitRepo: '',
+        image: PS_2,
+        trailer: 'https://www.youtube.com/embed/2wJpbqS3xGU?si=8V48pNO5Gnn2-p4D',
+        gitRepo: 'https://github.com/rorix14/President-Sim',
+        downloadLink: null,
         tech: [GetSkillByName("JavaScript"), GetSkillByName("SQL"), GetSkillByName("Html"), GetSkillByName("CSS"),
             GetSkillByName("Node.js"), GetSkillByName("MySQL"), GetSkillByName("VS Code")],
-        summary: 'The player finds himself in the shoes of a newly elected president. Players\n' +
-            'must work with the game’s two factions, Corporate and General Population to keep\n' +
-            'their influence as high as possible by the time election day comes so they get re-elected.\n' +
-            'To influence the world, the player must play cards drawn from a deck and place them in\n' +
-            'different regions. Once in a region, cards will stay there for a couple of turns affecting\n' +
-            'the rating of the Corporate and General Population. Region events appear throughout\n' +
-            'the game and can boost the effect of cards placed in those regions if they thematically\n' +
-            'correspond to those events in some way.'
+        images: [PS_1, PS_2],
+        summary: 'The player finds himself in the shoes of a newly elected president. Players must work with the game’s two ' +
+            'factions, Corporate and General Population to keep their influence as high as possible by the time election ' +
+            'day comes so they get re-elected.\n\nTo influence the world, the player must play cards  drawn randomly from a ' +
+            'deck and place them in different regions. Once in a region, cards will stay there for a couple of turns affecting ' +
+            'the rating of the Corporate and General Population. Region events appear throughout the game and can boost the ' +
+            'effect of cards placed in those regions if they thematically correspond to those events in some way.'
     }, {
         title: "Rock 'n' Shoot",
         description: '2D Top-down Rhythm Shooter',
-        image: JokerImage,
-        trailer: 'https://www.youtube.com/embed/r2ZCFOgtrpE?si=U-k6gtHjRadM8B9J',
-        gitRepo: '',
+        image: RS_4,
+        trailer: 'https://www.youtube.com/embed/gpn5MpNQ4Ck?si=rHGAeimOOTOTKZ6R',
+        gitRepo: 'https://github.com/rorix14/Rock-n-Shoot',
+        downloadLink: 'https://pedro-silva123.itch.io/rock-n-shoot',
+        images: [RS_1, RS_2, RS_3, RS_4],
         tech: [GetSkillByName("Lua"), GetSkillByName("Love2D"), GetSkillByName("ZeroBrane Studio")],
-        summary: 'In the game, players face the challenge of shooting enemies in sync with\n' +
-            'the rhythm of the accompanying song. Points are earned for each successfully executed\n' +
-            'shot, with the proximity to the beat influencing the score. The primary goal is to\n' +
-            'navigate through the musical journey, finishing the song alive, and maximizing points\n' +
-            'along the way.'
+        summary: 'In the game, players face the challenge of shooting enemies in sync with the rhythm of the accompanying ' +
+            'song. Points are earned for each successfully executed shot, with the proximity to the beat influencing the ' +
+            'score. The primary goal is to navigate through the musical journey, finishing the song alive, and maximizing ' +
+            'points along the way.'
     },
 ];

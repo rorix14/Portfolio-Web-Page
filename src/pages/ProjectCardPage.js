@@ -3,6 +3,7 @@ import {useState} from "react";
 import Modal from "../components/Modal";
 import Button from "../components/Button";
 import {Tooltip} from "react-tooltip";
+import {GrClose} from "react-icons/gr";
 
 function ProjectCardPage({projectsList}) {
     const [currentProjectIndex, setProjectIndex] = useState(0);
@@ -16,38 +17,63 @@ function ProjectCardPage({projectsList}) {
     const handleClose = () => {
         setShowModal(false);
     };
-//I'm working on a website using node.js and react.js, In need to create an element that displays a text then a link. The end result should loo like this "View this project on GitHub: https://the_link.com".
-    // The link part should have a blue color and an underline (as per usual), and the rest of the text should be in bold. Please use the Tailwind CSS library for the styling.
+
+    const currentProject = projectsList[currentProjectIndex];
+
+    const [imageToShow, setImageToShow] = useState();
+    const [showImageFull, setImageFull] = useState(false);
+
+    const handleShowImageFull = (index) => {
+        setImageFull(true);
+        setImageToShow(index);
+    }
+    const handleClose2 = () => {
+        setImageFull(false);
+    }
+    const renderedImageFull = <div onClick={handleClose2}
+                                   className='fixed inset-0 flex items-center justify-center bg-gray-950 bg-opacity-80 overflow-auto px-3.5'>
+        <img src={imageToShow} alt={currentProject.title} className="object-contain h-96 sm:h-5/6 sm:w-3/4 md:w-3/5"/>
+    </div>
+
     /*<iframe width="560" height="315" src={projectsList[currentProjectIndex].trailer}
              title="YouTube video player" frameBorder="0"
              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>*/
-
-    const currentProject = projectsList[currentProjectIndex];
     const modal = <Modal onClose={handleClose}
-                         actionBar={<Button primary onClick={handleClose}>Close</Button>}>
-        <h3 className="text-lg font-bold mb-2.5 text-center">{currentProject.title}</h3>
-        <iframe className="aspect-video"
-                src={currentProject.trailer}
-                title="YouTube video player" frameBorder="0"
+                         actionBar={<Button secondary onClick={handleClose}><GrClose/>Close</Button>}>
+        <h3 className="text-2xl md:text-3xl font-bold mb-2.5 md:mb-3 text-center text-tangerine">{currentProject.title}</h3>
+        <iframe className="aspect-video mb-4" src={currentProject.trailer} title="YouTube video player" frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
-        <p>{currentProject.summary}</p>
-        <div className="text-center">
-            <b>View this project on GitHub: </b>
+        <p className="text-milky-way mb-8 whitespace-pre-line">{currentProject.summary}</p>
+        <div className="text-center mb-8 space-y-3">
+            <b className="text-lavender">View this project on GitHub: </b>
             <a href={currentProject.gitRepo} target="_blank" rel="noopener noreferrer"
-               className="text-blue-600 hover:underline underline-offset-2">{currentProject.gitRepo}</a>
+               className="hover:underline underline-offset-1 text-tangerine">{currentProject.gitRepo}</a>
+            {currentProject.downloadLink && <div>
+                <b className="text-lavender">Download the game at: </b>
+                <a href={currentProject.downloadLink} target="_blank" rel="noopener noreferrer"
+                   className="hover:underline underline-offset-1 text-tangerine">{currentProject.downloadLink}</a>
+            </div>}
         </div>
-        <div className="flex flex-col items-center justify-center">
-            <p className="font-bold">Tech used:</p>
-            <div
-                className={`grid grid-cols-${currentProject.tech.length > 6 ? 6 : currentProject.tech.length} gap-3 md:gap-5`}>
-                {currentProject.tech.map((skill, index) => {
-                        return <img src={skill.imageLogo} alt={skill.name} className="w-9 h-9 md:w-12 md:h-12"
-                                    data-tooltip-id="my-tooltip" data-tooltip-content={skill.name}/>;
-                    }
-                )}
-            </div>
+        <p className="text-center font-bold mb-0.5 text-lg text-tangerine">Tech used:</p>
+        <div className="flex flex-wrap justify-center mb-8 mx-10 md:mx-28 lg:mx-32">
+            {currentProject.tech.map((skill, index) => {
+                return <img key={index} src={skill.imageLogo} alt={skill.name}
+                                className="my-2 mx-2 md:my-3 md:mx-3 w-9 h-9 md:w-12 md:h-12"
+                                data-tooltip-id="my-tooltip" data-tooltip-content={skill.name}/>;
+                }
+            )}
         </div>
-        <Tooltip id="my-tooltip" style={{fontSize: "1.125rem", lineHeight: "1.75rem"}}/>
+        <p className="text-center font-bold mb-2 text-lg text-tangerine">{`${currentProject.title} images: `}</p>
+        <div className="flex flex-wrap justify-center mb-8">
+            {currentProject.images.map((image, index) => {
+                    return <img key={index} src={image} alt={currentProject.title}
+                                className="mt-0.5 mr-0.5 md:mt-1 md:mr-1 w-1/4 h-1/4 md:w-1/5 md:h-1/5 cursor-pointer"
+                                onClick={() => handleShowImageFull(image)}/>;
+                }
+            )}
+        </div>
+        <Tooltip id="my-tooltip" opacity={0.95} style={{fontSize: "1.125rem", lineHeight: "1.75rem"}}/>
+        {showImageFull && renderedImageFull}
     </Modal>
 
     const renderedProjectCards = projectsList.map((project, index) => {
@@ -58,10 +84,10 @@ function ProjectCardPage({projectsList}) {
     //<div className='flex flex-wrap mx-8 my-8'>{renderedProjectCards}</div>
     //justify-items-center scale-50
     return (
-        <div className='min-h-screen py-10 bg-zinc-200'>
+        <div className='min-h-screen py-10 bg-milky-way'>
             <div className="flex flex-col items-center justify-center mb-10">
-                <h1 className="text-4xl font-bold">University Projects</h1>
-                <p className="mt-2 text-lg">A small description about the projects</p>
+                <h1 className="text-4xl font-bold text-twilight">Academic Projects</h1>
+                <p className="mt-2 text-lg text-iris">A small description about the projects</p>
             </div>
             <div
                 className="mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-4/5 sm:w-3/5 md:w-3/5 lg:w-2/3">
