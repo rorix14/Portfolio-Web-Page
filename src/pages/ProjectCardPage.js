@@ -4,6 +4,7 @@ import Modal from "../components/Modal";
 import Button from "../components/Button";
 import {Tooltip} from "react-tooltip";
 import {GrClose} from "react-icons/gr";
+import ImageCarousel from "../components/ImageCarousel";
 
 function ProjectCardPage({projectsList}) {
     const [currentProjectIndex, setProjectIndex] = useState(0);
@@ -20,20 +21,16 @@ function ProjectCardPage({projectsList}) {
 
     const currentProject = projectsList[currentProjectIndex];
 
-    const [imageToShow, setImageToShow] = useState();
+    const [imageIndex, setImageIndex] = useState(0);
     const [showImageFull, setImageFull] = useState(false);
 
     const handleShowImageFull = (index) => {
         setImageFull(true);
-        setImageToShow(index);
+        setImageIndex(index);
     }
     const handleClose2 = () => {
         setImageFull(false);
     }
-    const renderedImageFull = <div onClick={handleClose2}
-                                   className='fixed inset-0 flex items-center justify-center bg-gray-950 bg-opacity-80 overflow-auto px-3.5'>
-        <img src={imageToShow} alt={currentProject.title} className="object-contain h-96 sm:h-5/6 sm:w-3/4 md:w-3/5"/>
-    </div>
 
     /*<iframe width="560" height="315" src={projectsList[currentProjectIndex].trailer}
              title="YouTube video player" frameBorder="0"
@@ -57,7 +54,7 @@ function ProjectCardPage({projectsList}) {
         <p className="text-center font-bold mb-0.5 text-lg text-tangerine">Tech used:</p>
         <div className="flex flex-wrap justify-center mb-8 mx-10 md:mx-28 lg:mx-32">
             {currentProject.tech.map((skill, index) => {
-                return <img key={index} src={skill.imageLogo} alt={skill.name}
+                    return <img key={index} src={skill.imageLogo} alt={skill.name}
                                 className="my-2 mx-2 md:my-3 md:mx-3 w-9 h-9 md:w-12 md:h-12"
                                 data-tooltip-id="my-tooltip" data-tooltip-content={skill.name}/>;
                 }
@@ -68,12 +65,14 @@ function ProjectCardPage({projectsList}) {
             {currentProject.images.map((image, index) => {
                     return <img key={index} src={image} alt={currentProject.title}
                                 className="mt-0.5 mr-0.5 md:mt-1 md:mr-1 w-1/4 h-1/4 md:w-1/5 md:h-1/5 cursor-pointer"
-                                onClick={() => handleShowImageFull(image)}/>;
+                                onClick={() => handleShowImageFull(index)}/>;
                 }
             )}
         </div>
         <Tooltip id="my-tooltip" opacity={0.95} style={{fontSize: "1.125rem", lineHeight: "1.75rem"}}/>
-        {showImageFull && renderedImageFull}
+        {showImageFull &&
+            <ImageCarousel onClose={handleClose2} title={currentProject.title} images={currentProject.images}
+                           showIndex={imageIndex}/>}
     </Modal>
 
     const renderedProjectCards = projectsList.map((project, index) => {
@@ -85,9 +84,9 @@ function ProjectCardPage({projectsList}) {
     //justify-items-center scale-50
     return (
         <div className='min-h-screen py-10 bg-milky-way'>
-            <div className="flex flex-col items-center justify-center mb-10">
+            <div className="flex flex-col items-center justify-center text-center mb-10">
                 <h1 className="text-4xl font-bold text-twilight">Academic Projects</h1>
-                <p className="mt-2 text-lg text-iris">A small description about the projects</p>
+                <p className="mt-2 text-lg text-iris">Here you can see some of the most interesting projects I worked on:</p>
             </div>
             <div
                 className="mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-4/5 sm:w-3/5 md:w-3/5 lg:w-2/3">

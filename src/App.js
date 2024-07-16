@@ -29,7 +29,7 @@ function App() {
     return (
         <div>
             <NavBar sections={sections}/>
-            <HomePage/>
+            <HomePage firstSectionId={sections[0].id}/>
             <section id={sections[0].id}>
                 <AboutPage/>
             </section>

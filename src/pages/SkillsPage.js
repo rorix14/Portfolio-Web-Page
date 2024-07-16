@@ -27,7 +27,6 @@ function SkillsPage({skills}) {
     });
 
     //const bg = "bg-[#29375b]"; //--midnight
-
     // const bg = "bg-[#114B5F]";
     // const sectionTitle = "text-[#F45B69]";
     // const sectionHeading = "text-[#009FB7]";
@@ -69,7 +68,7 @@ function SkillsPage({skills}) {
         <div className="min-h-screen py-10 flex flex-col bg-midnight">
             <div className="text-center space-y-2 mb-10">
                 <h1 className="text-4xl font-bold text-tangerine">Skills</h1>
-                <p className="text-lg text-lavender">[Section sub-title]</p>
+                {/*<p className="text-lg text-lavender">[Section sub-title]</p>*/}
             </div>
             <div className="flex-grow flex flex-col md:flex-row items-center justify-center">
                 <div className="md:hidden flex flex-row space-x-4 border-2 rounded-lg w-fit p-2 mb-5 border-lavender">
