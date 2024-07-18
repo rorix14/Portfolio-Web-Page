@@ -109,13 +109,15 @@ import DR_3 from "./images/Projects/Driver Mania/DR_3.jpg"
 import DR_4 from "./images/Projects/Driver Mania/DR_4.jpg"
 import DR_5 from "./images/Projects/Driver Mania/DR_5.jpg"
 
+import MyThesis from "./documents/My_thesis.pdf"
+
 export const papers = [
     {
         title: "Master's thesis: An Evaluation of Deep Reinforcement Learning & Neuroevolution in Stealth Game Problems",
         authors: 'Pedro Silva',
         year: '2024',
         link: 'https://www.example.com',
-        pdfFile: './documents/Comparing_evolutionary_and_temporal_diff.pdf'
+        pdfFile: MyThesis
     }, {
         title: 'Title of Paper 2',
         authors: 'Author 1, Author 2',
@@ -133,8 +135,8 @@ export const papers = [
 
 export const contacts = [
     {
-        link: "mailto:rorix_14@hotmail.com",
-        description: "rorix_14@hotmail.com",
+        link: "mailto:pedrosilva333@outlook.com",
+        description: "pedrosilva333@outlook.com",
         icon: IoMdMail,
     }, {
         link: "https://github.com/rorix14",

@@ -1,5 +1,5 @@
 import myImage from '../images/Super_Capivara.jpg';
-import myCV from '../documents/Comparing_evolutionary_and_temporal_diff.pdf';
+import myCV from '../documents/Resume.pdf';
 import Button from "../components/Button";
 import {ImFilePdf} from "react-icons/im";
 
@@ -8,7 +8,7 @@ function AboutPage() {
         " Master's degree in Artificial Intelligence, and a Bachelor's degree in Game Development, from IADE University. \n\n" +
         "Throughout my academic journey, I’ve worked on various areas of software development, including web and mobile, " +
         "but mostly video game development. I have experience in AI techniques, from classical algorithms to Game AI " +
-        "to Deep Learning models, and I’m always looking for new ways to research and develop emergent AI behaviors"
+        "to Deep Learning models, and I’m always looking for new ways to research and develop emergent AI behaviors."
 
     return (
         <section className="min-h-screen py-10 flex flex-col items-center justify-center bg-milky-way">

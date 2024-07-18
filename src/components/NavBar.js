@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import {Link, animateScroll} from "react-scroll"
-import CVpdf from "../documents/Comparing_evolutionary_and_temporal_diff.pdf";
+import CVpdf from "../documents/Resume.pdf";
 import {ImFilePdf} from "react-icons/im";
 
 function NavBar({sections}) {
