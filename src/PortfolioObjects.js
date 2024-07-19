@@ -119,32 +119,32 @@ export const papers = [
         link: 'https://www.example.com',
         pdfFile: MyThesis
     }, {
-        title: 'Title of Paper 2',
-        authors: 'Author 1, Author 2',
-        year: '2023',
+        title: 'In the works!',
+        authors: 'Pedro Silva, Edirlei Lima',
+        year: '2024',
         link: 'https://www.example.com',
-        pdfFile: './documents/Comparing_evolutionary_and_temporal_diff.pdf'
+        pdfFile: ''
     }, {
         title: 'Title of Paper 3',
         authors: 'Author 1',
-        year: '2023',
+        year: '2025',
         link: 'https://www.example.com',
-        pdfFile: './documents/Comparing_evolutionary_and_temporal_diff.pdf'
+        pdfFile: ''
     }
 ];
 
 export const contacts = [
     {
-        link: "mailto:pedrosilva333@outlook.com",
-        description: "pedrosilva333@outlook.com",
+        link: "mailto:pedrosilva333@outlook.pt",
+        description: "pedrosilva333@outlook.pt",
         icon: IoMdMail,
     }, {
         link: "https://github.com/rorix14",
         description: "github.com/rorix14",
         icon: VscGithubInverted,
     }, {
-        link: "https://www.linkedin.com",
-        description: "linkedin.com/pedro...",
+        link: "https://www.linkedin.com/in/pedro-silva-10645b31a",
+        description: "linkedin.com/in/pedro-silva",
         icon: BsLinkedin,
     }
 ];
