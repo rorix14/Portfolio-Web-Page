@@ -1,4 +1,4 @@
-import myImage from '../images/Super_Capivara.jpg';
+import myImage from '../images/my_image_2.jpg';
 import myCV from '../documents/Resume.pdf';
 import Button from "../components/Button";
 import {ImFilePdf} from "react-icons/im";

@@ -1,5 +1,5 @@
 import backgroundImage from '../images/lisbon-1.jpg';
-import profileImage from "../images/Batman_Capivara.jpg";
+import profileImage from "../images/my_image_4.jpg";
 import {SlArrowDown} from "react-icons/sl"
 import Button from "../components/Button";
 import {Link} from "react-scroll";
