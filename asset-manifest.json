@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Web-Page/static/css/main.26aae395.css",
-    "main.js": "/Portfolio-Web-Page/static/js/main.699bae4e.js",
+    "main.js": "/Portfolio-Web-Page/static/js/main.748eac8c.js",
     "static/media/My_thesis.pdf": "/Portfolio-Web-Page/static/media/My_thesis.6ff1af5e02c09c0b3f36.pdf",
     "static/media/TR_6.png": "/Portfolio-Web-Page/static/media/TR_6.714fde83a372132e4130.png",
     "static/media/TR_5.png": "/Portfolio-Web-Page/static/media/TR_5.18d8f22cac3df79f1ee8.png",
@@ -46,8 +46,6 @@
     "static/media/Muve_3.jpg": "/Portfolio-Web-Page/static/media/Muve_3.4101e6745e20516edf91.jpg",
     "static/media/AndroidStudio_logo.png": "/Portfolio-Web-Page/static/media/AndroidStudio_logo.1ff3f7abec857f9f7102.png",
     "static/media/RE_5.jpg": "/Portfolio-Web-Page/static/media/RE_5.a0287fa0909371823820.jpg",
-    "static/media/Batman_Capivara.jpg": "/Portfolio-Web-Page/static/media/Batman_Capivara.940ad300010c702ea4e9.jpg",
-    "static/media/Super_Capivara.jpg": "/Portfolio-Web-Page/static/media/Super_Capivara.5262c5771e18af6c4c11.jpg",
     "static/media/DR_2.jpg": "/Portfolio-Web-Page/static/media/DR_2.43e1e7d268f6757ec213.jpg",
     "static/media/MLi_6.jpg": "/Portfolio-Web-Page/static/media/MLi_6.4d243ed90ab29e071c38.jpg",
     "static/media/RE_10.jpg": "/Portfolio-Web-Page/static/media/RE_10.bf7cfc41eb3659583255.jpg",
@@ -73,6 +71,7 @@
     "static/media/RE_4.jpg": "/Portfolio-Web-Page/static/media/RE_4.a1bd7978f8859cfc7f8b.jpg",
     "static/media/RS_2.jpg": "/Portfolio-Web-Page/static/media/RS_2.1ca1b7bf573b5b883a05.jpg",
     "static/media/PyTorch_logo.png": "/Portfolio-Web-Page/static/media/PyTorch_logo.1e6dc01b7f06ef4e1f8f.png",
+    "static/media/my_image_4.jpg": "/Portfolio-Web-Page/static/media/my_image_4.ccd681ec3275ee7198c5.jpg",
     "static/media/RS_1.jpg": "/Portfolio-Web-Page/static/media/RS_1.916484d1bcff28c963df.jpg",
     "static/media/RE_9.jpg": "/Portfolio-Web-Page/static/media/RE_9.13aedef42012083e8233.jpg",
     "static/media/DR_4.jpg": "/Portfolio-Web-Page/static/media/DR_4.009578e2b240d15f317f.jpg",
@@ -81,6 +80,7 @@
     "static/media/RS_3.jpg": "/Portfolio-Web-Page/static/media/RS_3.36074714e433ce79bb11.jpg",
     "static/media/MLi_12.png": "/Portfolio-Web-Page/static/media/MLi_12.84f7f38ada15fab85af1.png",
     "static/media/Thesis_3.jpg": "/Portfolio-Web-Page/static/media/Thesis_3.db4e37ea5d212281ddec.jpg",
+    "static/media/my_image_2.jpg": "/Portfolio-Web-Page/static/media/my_image_2.3361dfc2a6a60e264436.jpg",
     "static/media/Arduino_logo.png": "/Portfolio-Web-Page/static/media/Arduino_logo.a25a913866a197caa4d9.png",
     "static/media/Unreal_logo.png": "/Portfolio-Web-Page/static/media/Unreal_logo.7c0b9e08dcbc96f39460.png",
     "static/media/Muve_1.jpg": "/Portfolio-Web-Page/static/media/Muve_1.e9c82016a994d639a130.jpg",
@@ -110,10 +110,10 @@
     "static/media/CSS_logo.png": "/Portfolio-Web-Page/static/media/CSS_logo.286a9900f844f7c0ed5f.png",
     "index.html": "/Portfolio-Web-Page/index.html",
     "main.26aae395.css.map": "/Portfolio-Web-Page/static/css/main.26aae395.css.map",
-    "main.699bae4e.js.map": "/Portfolio-Web-Page/static/js/main.699bae4e.js.map"
+    "main.748eac8c.js.map": "/Portfolio-Web-Page/static/js/main.748eac8c.js.map"
   },
   "entrypoints": [
     "static/css/main.26aae395.css",
-    "static/js/main.699bae4e.js"
+    "static/js/main.748eac8c.js"
   ]
 }
