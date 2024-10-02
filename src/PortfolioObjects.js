@@ -116,7 +116,7 @@ export const papers = [
         title: "Master's thesis: An Evaluation of Deep Reinforcement Learning & Neuroevolution in Stealth Game Problems",
         authors: 'Pedro Silva',
         year: '2024',
-        link: 'https://www.example.com',
+        link: 'https://comum.rcaap.pt/handle/10400.26/52330',
         pdfFile: MyThesis
     }, {
         title: 'In the works!',
