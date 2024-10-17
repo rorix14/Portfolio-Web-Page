@@ -11,6 +11,7 @@ import PythonLogo from "./images/logos/Phython_logo.png"
 import SQLLogo from "./images/logos/SQL_logo.png"
 import HtmlLogo from "./images/logos/Html_logo.png"
 import CSSLogo from "./images/logos/CSS_logo.png"
+import RLogo from "./images/logos/R_logo.png"
 import KotlinLogo from "./images/logos/Kotlin_logo.png"
 import TypeScriptLogo from "./images/logos/TypeScript_logo.png"
 import LuaLogo from "./images/logos/Lua_logo.png"
@@ -24,6 +25,7 @@ import MySQLLogo from "./images/logos/MySQL_logo.png"
 import AndroidStudioLogo from "./images/logos/AndroidStudio_logo.png"
 import UnityLogo from "./images/logos/Unity_logo.png"
 import UnrealLogo from "./images/logos/Unreal_logo.png"
+import RStudioLogo from "./images/logos/RStudio_logo.png"
 import ArduinoLogo from "./images/logos/Arduino_logo.png"
 import VisualStudioLogo from "./images/logos/VisualStudio_logo.png"
 import VisualStudioCodeLogo from "./images/logos/Visual_Studio_Code_logo.png"
@@ -149,6 +151,7 @@ export const contacts = [
     }
 ];
 
+
 export const skills = [
     {
         name: 'C#',
@@ -193,6 +196,11 @@ export const skills = [
     }, {
         name: 'CSS',
         imageLogo: CSSLogo,
+        level: 'Beginner',
+        category: "Programming Languages"
+    },  {
+        name: 'R',
+        imageLogo: RLogo,
         level: 'Beginner',
         category: "Programming Languages"
     }, {
@@ -243,6 +251,11 @@ export const skills = [
     }, {
         name: 'MySQL',
         imageLogo: MySQLLogo,
+        level: 'Beginner',
+        category: "Frameworks & Environments"
+    },{
+        name: 'RStudio',
+        imageLogo: RStudioLogo,
         level: 'Beginner',
         category: "Frameworks & Environments"
     }, {
