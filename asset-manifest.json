@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Web-Page/static/css/main.26aae395.css",
-    "main.js": "/Portfolio-Web-Page/static/js/main.a894c216.js",
+    "main.js": "/Portfolio-Web-Page/static/js/main.933894f1.js",
     "static/media/My_thesis.pdf": "/Portfolio-Web-Page/static/media/My_thesis.6ff1af5e02c09c0b3f36.pdf",
     "static/media/TR_6.png": "/Portfolio-Web-Page/static/media/TR_6.714fde83a372132e4130.png",
     "static/media/TR_5.png": "/Portfolio-Web-Page/static/media/TR_5.18d8f22cac3df79f1ee8.png",
@@ -33,6 +33,7 @@
     "static/media/MySQL_logo.png": "/Portfolio-Web-Page/static/media/MySQL_logo.23907cc1ec2ba5eef34b.png",
     "static/media/OpenGL_logo.png": "/Portfolio-Web-Page/static/media/OpenGL_logo.38d33f2ca8b54b1ae81e.png",
     "static/media/PS_1.png": "/Portfolio-Web-Page/static/media/PS_1.5fce642e034e1cf7a9a3.png",
+    "static/media/AndroidStudio_logo.png": "/Portfolio-Web-Page/static/media/AndroidStudio_logo.3f07b8a98bc2b3d1caac.png",
     "static/media/Mli_5.png": "/Portfolio-Web-Page/static/media/Mli_5.7f8b9e899522321ce55d.png",
     "static/media/Csharp_logo.png": "/Portfolio-Web-Page/static/media/Csharp_logo.9dd59a1f9381ea65903f.png",
     "static/media/MLi_2.jpg": "/Portfolio-Web-Page/static/media/MLi_2.4f47ce3cb24179a25f05.jpg",
@@ -44,7 +45,6 @@
     "static/media/MLi_7.jpg": "/Portfolio-Web-Page/static/media/MLi_7.556371c7422def62729a.jpg",
     "static/media/RE_3.jpg": "/Portfolio-Web-Page/static/media/RE_3.329a49a11d881849eb93.jpg",
     "static/media/Muve_3.jpg": "/Portfolio-Web-Page/static/media/Muve_3.4101e6745e20516edf91.jpg",
-    "static/media/AndroidStudio_logo.png": "/Portfolio-Web-Page/static/media/AndroidStudio_logo.1ff3f7abec857f9f7102.png",
     "static/media/RE_5.jpg": "/Portfolio-Web-Page/static/media/RE_5.a0287fa0909371823820.jpg",
     "static/media/DR_2.jpg": "/Portfolio-Web-Page/static/media/DR_2.43e1e7d268f6757ec213.jpg",
     "static/media/MLi_6.jpg": "/Portfolio-Web-Page/static/media/MLi_6.4d243ed90ab29e071c38.jpg",
@@ -58,7 +58,7 @@
     "static/media/MLi_11.png": "/Portfolio-Web-Page/static/media/MLi_11.131fcc7183d9782423df.png",
     "static/media/RE_1.jpg": "/Portfolio-Web-Page/static/media/RE_1.1ea397235806855e4ce8.jpg",
     "static/media/MLi_4.jpg": "/Portfolio-Web-Page/static/media/MLi_4.53b3cc8c7f57f1004050.jpg",
-    "static/media/Resume.pdf": "/Portfolio-Web-Page/static/media/Resume.117fcca65d5eabe47a67.pdf",
+    "static/media/Resume.pdf": "/Portfolio-Web-Page/static/media/Resume.a03483412d9a50f2ec79.pdf",
     "static/media/DR_5.jpg": "/Portfolio-Web-Page/static/media/DR_5.b7f3b30c453b38f32ab9.jpg",
     "static/media/DR_3.jpg": "/Portfolio-Web-Page/static/media/DR_3.d5ac9ae9933cb72625b0.jpg",
     "static/media/RE_11.jpg": "/Portfolio-Web-Page/static/media/RE_11.bb537532501fa99c767e.jpg",
@@ -80,12 +80,14 @@
     "static/media/RS_3.jpg": "/Portfolio-Web-Page/static/media/RS_3.36074714e433ce79bb11.jpg",
     "static/media/MLi_12.png": "/Portfolio-Web-Page/static/media/MLi_12.84f7f38ada15fab85af1.png",
     "static/media/Thesis_3.jpg": "/Portfolio-Web-Page/static/media/Thesis_3.db4e37ea5d212281ddec.jpg",
+    "static/media/RStudio_logo.png": "/Portfolio-Web-Page/static/media/RStudio_logo.01041cdb5185c9fae6d8.png",
     "static/media/my_image_2.jpg": "/Portfolio-Web-Page/static/media/my_image_2.3361dfc2a6a60e264436.jpg",
     "static/media/Arduino_logo.png": "/Portfolio-Web-Page/static/media/Arduino_logo.a25a913866a197caa4d9.png",
     "static/media/Unreal_logo.png": "/Portfolio-Web-Page/static/media/Unreal_logo.7c0b9e08dcbc96f39460.png",
     "static/media/Muve_1.jpg": "/Portfolio-Web-Page/static/media/Muve_1.e9c82016a994d639a130.jpg",
     "static/media/Thesis_5.jpg": "/Portfolio-Web-Page/static/media/Thesis_5.0b65f80bfddfa5716757.jpg",
     "static/media/Thesis_4.jpg": "/Portfolio-Web-Page/static/media/Thesis_4.fe6b42c6f2eae3cb8c50.jpg",
+    "static/media/R_logo.png": "/Portfolio-Web-Page/static/media/R_logo.ef3625bf4c8aa5aee61a.png",
     "static/media/MLi_13.png": "/Portfolio-Web-Page/static/media/MLi_13.ab9f467b0d952d7203a5.png",
     "static/media/Muve_2.png": "/Portfolio-Web-Page/static/media/Muve_2.5ca755503462ae1004a3.png",
     "static/media/RS_4.jpg": "/Portfolio-Web-Page/static/media/RS_4.1135441a6bfe7979dd3d.jpg",
@@ -110,10 +112,10 @@
     "static/media/CSS_logo.png": "/Portfolio-Web-Page/static/media/CSS_logo.286a9900f844f7c0ed5f.png",
     "index.html": "/Portfolio-Web-Page/index.html",
     "main.26aae395.css.map": "/Portfolio-Web-Page/static/css/main.26aae395.css.map",
-    "main.a894c216.js.map": "/Portfolio-Web-Page/static/js/main.a894c216.js.map"
+    "main.933894f1.js.map": "/Portfolio-Web-Page/static/js/main.933894f1.js.map"
   },
   "entrypoints": [
     "static/css/main.26aae395.css",
-    "static/js/main.a894c216.js"
+    "static/js/main.933894f1.js"
   ]
 }
