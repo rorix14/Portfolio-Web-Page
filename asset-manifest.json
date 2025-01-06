@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Web-Page/static/css/main.26aae395.css",
-    "main.js": "/Portfolio-Web-Page/static/js/main.933894f1.js",
+    "main.css": "/Portfolio-Web-Page/static/css/main.72f03a79.css",
+    "main.js": "/Portfolio-Web-Page/static/js/main.183f8655.js",
     "static/media/My_thesis.pdf": "/Portfolio-Web-Page/static/media/My_thesis.6ff1af5e02c09c0b3f36.pdf",
     "static/media/TR_6.png": "/Portfolio-Web-Page/static/media/TR_6.714fde83a372132e4130.png",
     "static/media/TR_5.png": "/Portfolio-Web-Page/static/media/TR_5.18d8f22cac3df79f1ee8.png",
@@ -54,6 +54,7 @@
     "static/media/RE_12.jpg": "/Portfolio-Web-Page/static/media/RE_12.8c5fe953b638eb0240c6.jpg",
     "static/media/PE_5.jpg": "/Portfolio-Web-Page/static/media/PE_5.9ddeefc94ced4366dd67.jpg",
     "static/media/PE_3.jpg": "/Portfolio-Web-Page/static/media/PE_3.c8152fd8a04da94de319.jpg",
+    "static/media/my_image_7.jpg": "/Portfolio-Web-Page/static/media/my_image_7.1a705d1ffcf4ca11c7a7.jpg",
     "static/media/RE_2.jpg": "/Portfolio-Web-Page/static/media/RE_2.253f1b61e0ab7d4a5541.jpg",
     "static/media/MLi_11.png": "/Portfolio-Web-Page/static/media/MLi_11.131fcc7183d9782423df.png",
     "static/media/RE_1.jpg": "/Portfolio-Web-Page/static/media/RE_1.1ea397235806855e4ce8.jpg",
@@ -71,7 +72,6 @@
     "static/media/RE_4.jpg": "/Portfolio-Web-Page/static/media/RE_4.a1bd7978f8859cfc7f8b.jpg",
     "static/media/RS_2.jpg": "/Portfolio-Web-Page/static/media/RS_2.1ca1b7bf573b5b883a05.jpg",
     "static/media/PyTorch_logo.png": "/Portfolio-Web-Page/static/media/PyTorch_logo.1e6dc01b7f06ef4e1f8f.png",
-    "static/media/my_image_4.jpg": "/Portfolio-Web-Page/static/media/my_image_4.ccd681ec3275ee7198c5.jpg",
     "static/media/RS_1.jpg": "/Portfolio-Web-Page/static/media/RS_1.916484d1bcff28c963df.jpg",
     "static/media/RE_9.jpg": "/Portfolio-Web-Page/static/media/RE_9.13aedef42012083e8233.jpg",
     "static/media/DR_4.jpg": "/Portfolio-Web-Page/static/media/DR_4.009578e2b240d15f317f.jpg",
@@ -111,11 +111,11 @@
     "static/media/SQL_logo.png": "/Portfolio-Web-Page/static/media/SQL_logo.e742a0a409270dbe6e7e.png",
     "static/media/CSS_logo.png": "/Portfolio-Web-Page/static/media/CSS_logo.286a9900f844f7c0ed5f.png",
     "index.html": "/Portfolio-Web-Page/index.html",
-    "main.26aae395.css.map": "/Portfolio-Web-Page/static/css/main.26aae395.css.map",
-    "main.933894f1.js.map": "/Portfolio-Web-Page/static/js/main.933894f1.js.map"
+    "main.72f03a79.css.map": "/Portfolio-Web-Page/static/css/main.72f03a79.css.map",
+    "main.183f8655.js.map": "/Portfolio-Web-Page/static/js/main.183f8655.js.map"
   },
   "entrypoints": [
-    "static/css/main.26aae395.css",
-    "static/js/main.933894f1.js"
+    "static/css/main.72f03a79.css",
+    "static/js/main.183f8655.js"
   ]
 }
