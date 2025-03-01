@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Web-Page/static/css/main.72f03a79.css",
-    "main.js": "/Portfolio-Web-Page/static/js/main.3c2a7f98.js",
+    "main.js": "/Portfolio-Web-Page/static/js/main.8ea872f4.js",
     "static/media/My_thesis.pdf": "/Portfolio-Web-Page/static/media/My_thesis.6ff1af5e02c09c0b3f36.pdf",
     "static/media/TR_6.png": "/Portfolio-Web-Page/static/media/TR_6.714fde83a372132e4130.png",
     "static/media/TR_5.png": "/Portfolio-Web-Page/static/media/TR_5.18d8f22cac3df79f1ee8.png",
@@ -48,7 +48,7 @@
     "static/media/RE_5.jpg": "/Portfolio-Web-Page/static/media/RE_5.a0287fa0909371823820.jpg",
     "static/media/DR_2.jpg": "/Portfolio-Web-Page/static/media/DR_2.43e1e7d268f6757ec213.jpg",
     "static/media/MLi_6.jpg": "/Portfolio-Web-Page/static/media/MLi_6.4d243ed90ab29e071c38.jpg",
-    "static/media/Resume.pdf": "/Portfolio-Web-Page/static/media/Resume.ac433ac19d44a5e4d982.pdf",
+    "static/media/Resume.pdf": "/Portfolio-Web-Page/static/media/Resume.7ea29591619d8961eb54.pdf",
     "static/media/RE_10.jpg": "/Portfolio-Web-Page/static/media/RE_10.bf7cfc41eb3659583255.jpg",
     "static/media/PE_18.jpg": "/Portfolio-Web-Page/static/media/PE_18.273bcbfec3089123162d.jpg",
     "static/media/PE_1.jpg": "/Portfolio-Web-Page/static/media/PE_1.9d9480227e45a76a0a75.jpg",
@@ -112,10 +112,10 @@
     "static/media/CSS_logo.png": "/Portfolio-Web-Page/static/media/CSS_logo.286a9900f844f7c0ed5f.png",
     "index.html": "/Portfolio-Web-Page/index.html",
     "main.72f03a79.css.map": "/Portfolio-Web-Page/static/css/main.72f03a79.css.map",
-    "main.3c2a7f98.js.map": "/Portfolio-Web-Page/static/js/main.3c2a7f98.js.map"
+    "main.8ea872f4.js.map": "/Portfolio-Web-Page/static/js/main.8ea872f4.js.map"
   },
   "entrypoints": [
     "static/css/main.72f03a79.css",
-    "static/js/main.3c2a7f98.js"
+    "static/js/main.8ea872f4.js"
   ]
 }
