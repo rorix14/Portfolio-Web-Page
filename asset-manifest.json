@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Web-Page/static/css/main.72f03a79.css",
-    "main.js": "/Portfolio-Web-Page/static/js/main.9088d174.js",
+    "main.css": "/Portfolio-Web-Page/static/css/main.2cce1002.css",
+    "main.js": "/Portfolio-Web-Page/static/js/main.cd8dc86d.js",
     "static/media/My_thesis.pdf": "/Portfolio-Web-Page/static/media/My_thesis.6ff1af5e02c09c0b3f36.pdf",
     "static/media/TR_6.png": "/Portfolio-Web-Page/static/media/TR_6.714fde83a372132e4130.png",
     "static/media/TR_5.png": "/Portfolio-Web-Page/static/media/TR_5.18d8f22cac3df79f1ee8.png",
@@ -16,11 +16,14 @@
     "static/media/TR_11.png": "/Portfolio-Web-Page/static/media/TR_11.5eb7fd189f4ebda5a475.png",
     "static/media/TR_2.png": "/Portfolio-Web-Page/static/media/TR_2.de5530aaafc840440437.png",
     "static/media/TR_1.png": "/Portfolio-Web-Page/static/media/TR_1.b05b1b3c807fef62ce6b.png",
+    "static/media/pac_woman_1.pdf": "/Portfolio-Web-Page/static/media/pac_woman_1.ddec0d843b161b0d5bc2.pdf",
     "static/media/PE_4.png": "/Portfolio-Web-Page/static/media/PE_4.9c45454ac9a4d2f6bb2d.png",
+    "static/media/Off-policy_DRL_vs_NE.pdf": "/Portfolio-Web-Page/static/media/Off-policy_DRL_vs_NE.6e8d9343275ada20923a.pdf",
     "static/media/Kotlin_logo.png": "/Portfolio-Web-Page/static/media/Kotlin_logo.ea1f30beabffbf71d58c.png",
     "static/media/PE_7.png": "/Portfolio-Web-Page/static/media/PE_7.bd5251fc3ecc809df5d6.png",
     "static/media/lisbon-1.jpg": "/Portfolio-Web-Page/static/media/lisbon-1.2331c6725b4a0c517d24.jpg",
     "static/media/PE_6.png": "/Portfolio-Web-Page/static/media/PE_6.307b67e9e21693b17218.png",
+    "static/media/pac_woman_2.pdf": "/Portfolio-Web-Page/static/media/pac_woman_2.070778b4483528d1c9ec.pdf",
     "static/media/PE_15.png": "/Portfolio-Web-Page/static/media/PE_15.35d34a6a53d785f47c7a.png",
     "static/media/PE_9.png": "/Portfolio-Web-Page/static/media/PE_9.31ad2c802befcacc63dc.png",
     "static/media/PE_13.png": "/Portfolio-Web-Page/static/media/PE_13.88c49f8fd96c71c0ba8e.png",
@@ -111,11 +114,11 @@
     "static/media/SQL_logo.png": "/Portfolio-Web-Page/static/media/SQL_logo.e742a0a409270dbe6e7e.png",
     "static/media/CSS_logo.png": "/Portfolio-Web-Page/static/media/CSS_logo.286a9900f844f7c0ed5f.png",
     "index.html": "/Portfolio-Web-Page/index.html",
-    "main.72f03a79.css.map": "/Portfolio-Web-Page/static/css/main.72f03a79.css.map",
-    "main.9088d174.js.map": "/Portfolio-Web-Page/static/js/main.9088d174.js.map"
+    "main.2cce1002.css.map": "/Portfolio-Web-Page/static/css/main.2cce1002.css.map",
+    "main.cd8dc86d.js.map": "/Portfolio-Web-Page/static/js/main.cd8dc86d.js.map"
   },
   "entrypoints": [
-    "static/css/main.72f03a79.css",
-    "static/js/main.9088d174.js"
+    "static/css/main.2cce1002.css",
+    "static/js/main.cd8dc86d.js"
   ]
 }
