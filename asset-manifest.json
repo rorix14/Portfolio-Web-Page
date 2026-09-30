@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Web-Page/static/css/main.0fcb735b.css",
-    "main.js": "/Portfolio-Web-Page/static/js/main.eb0313cc.js",
+    "main.js": "/Portfolio-Web-Page/static/js/main.a1021c06.js",
     "static/media/My_thesis.pdf": "/Portfolio-Web-Page/static/media/My_thesis.6ff1af5e02c09c0b3f36.pdf",
     "static/media/TR_6.png": "/Portfolio-Web-Page/static/media/TR_6.714fde83a372132e4130.png",
     "static/media/TR_5.png": "/Portfolio-Web-Page/static/media/TR_5.18d8f22cac3df79f1ee8.png",
@@ -38,6 +38,7 @@
     "static/media/PS_1.png": "/Portfolio-Web-Page/static/media/PS_1.5fce642e034e1cf7a9a3.png",
     "static/media/AndroidStudio_logo.png": "/Portfolio-Web-Page/static/media/AndroidStudio_logo.3f07b8a98bc2b3d1caac.png",
     "static/media/Mli_5.png": "/Portfolio-Web-Page/static/media/Mli_5.7f8b9e899522321ce55d.png",
+    "static/media/Resume.pdf": "/Portfolio-Web-Page/static/media/Resume.de64fe6f62da18433fc6.pdf",
     "static/media/Csharp_logo.png": "/Portfolio-Web-Page/static/media/Csharp_logo.9dd59a1f9381ea65903f.png",
     "static/media/MLi_2.jpg": "/Portfolio-Web-Page/static/media/MLi_2.4f47ce3cb24179a25f05.jpg",
     "static/media/Thesis_1.jpg": "/Portfolio-Web-Page/static/media/Thesis_1.f7b9413feb9cf57796c7.jpg",
@@ -49,7 +50,6 @@
     "static/media/RE_3.jpg": "/Portfolio-Web-Page/static/media/RE_3.329a49a11d881849eb93.jpg",
     "static/media/Muve_3.jpg": "/Portfolio-Web-Page/static/media/Muve_3.4101e6745e20516edf91.jpg",
     "static/media/RE_5.jpg": "/Portfolio-Web-Page/static/media/RE_5.a0287fa0909371823820.jpg",
-    "static/media/Resume.pdf": "/Portfolio-Web-Page/static/media/Resume.edff0199c702d12692bf.pdf",
     "static/media/DR_2.jpg": "/Portfolio-Web-Page/static/media/DR_2.43e1e7d268f6757ec213.jpg",
     "static/media/MLi_6.jpg": "/Portfolio-Web-Page/static/media/MLi_6.4d243ed90ab29e071c38.jpg",
     "static/media/RE_10.jpg": "/Portfolio-Web-Page/static/media/RE_10.bf7cfc41eb3659583255.jpg",
@@ -115,10 +115,10 @@
     "static/media/CSS_logo.png": "/Portfolio-Web-Page/static/media/CSS_logo.286a9900f844f7c0ed5f.png",
     "index.html": "/Portfolio-Web-Page/index.html",
     "main.0fcb735b.css.map": "/Portfolio-Web-Page/static/css/main.0fcb735b.css.map",
-    "main.eb0313cc.js.map": "/Portfolio-Web-Page/static/js/main.eb0313cc.js.map"
+    "main.a1021c06.js.map": "/Portfolio-Web-Page/static/js/main.a1021c06.js.map"
   },
   "entrypoints": [
     "static/css/main.0fcb735b.css",
-    "static/js/main.eb0313cc.js"
+    "static/js/main.a1021c06.js"
   ]
 }
