@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Web-Page/static/css/main.0fcb735b.css",
-    "main.js": "/Portfolio-Web-Page/static/js/main.a1021c06.js",
+    "main.js": "/Portfolio-Web-Page/static/js/main.dda7fb1a.js",
     "static/media/My_thesis.pdf": "/Portfolio-Web-Page/static/media/My_thesis.6ff1af5e02c09c0b3f36.pdf",
     "static/media/TR_6.png": "/Portfolio-Web-Page/static/media/TR_6.714fde83a372132e4130.png",
     "static/media/TR_5.png": "/Portfolio-Web-Page/static/media/TR_5.18d8f22cac3df79f1ee8.png",
@@ -38,7 +38,7 @@
     "static/media/PS_1.png": "/Portfolio-Web-Page/static/media/PS_1.5fce642e034e1cf7a9a3.png",
     "static/media/AndroidStudio_logo.png": "/Portfolio-Web-Page/static/media/AndroidStudio_logo.3f07b8a98bc2b3d1caac.png",
     "static/media/Mli_5.png": "/Portfolio-Web-Page/static/media/Mli_5.7f8b9e899522321ce55d.png",
-    "static/media/Resume.pdf": "/Portfolio-Web-Page/static/media/Resume.de64fe6f62da18433fc6.pdf",
+    "static/media/Resume.pdf": "/Portfolio-Web-Page/static/media/Resume.5b56cf82956a2a30120f.pdf",
     "static/media/Csharp_logo.png": "/Portfolio-Web-Page/static/media/Csharp_logo.9dd59a1f9381ea65903f.png",
     "static/media/MLi_2.jpg": "/Portfolio-Web-Page/static/media/MLi_2.4f47ce3cb24179a25f05.jpg",
     "static/media/Thesis_1.jpg": "/Portfolio-Web-Page/static/media/Thesis_1.f7b9413feb9cf57796c7.jpg",
@@ -115,10 +115,10 @@
     "static/media/CSS_logo.png": "/Portfolio-Web-Page/static/media/CSS_logo.286a9900f844f7c0ed5f.png",
     "index.html": "/Portfolio-Web-Page/index.html",
     "main.0fcb735b.css.map": "/Portfolio-Web-Page/static/css/main.0fcb735b.css.map",
-    "main.a1021c06.js.map": "/Portfolio-Web-Page/static/js/main.a1021c06.js.map"
+    "main.dda7fb1a.js.map": "/Portfolio-Web-Page/static/js/main.dda7fb1a.js.map"
   },
   "entrypoints": [
     "static/css/main.0fcb735b.css",
-    "static/js/main.a1021c06.js"
+    "static/js/main.dda7fb1a.js"
   ]
 }
